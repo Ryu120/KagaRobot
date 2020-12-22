@@ -61,7 +61,7 @@ Saya memiliki banyak fitur praktis ☺️ seperti:
 • Sistem penyimpanan Note.
 • Sistem Warning.
 
-*Dikelolah oleh ❤️:* [Hayaka Ryu](https://t.me/HayakaRyu)
+*Dikelolah oleh ❤️:* [➳͜͡❂ঔৣ⃕͜sabo℻࿐](https://t.me/Zeref_dragnell)
 
 Ingin menambahkan saya ke grup Anda? Cukup klik tombol di bawah!
 """
@@ -69,7 +69,7 @@ Ingin menambahkan saya ke grup Anda? Cukup klik tombol di bawah!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Tambahkan Saya ke Grup 👥", url="t.me/KagaRobot?startgroup=true"
+            text="Tambahkan Saya ke Grup 👥", url="t.me/Yukanayamebot?startgroup=true"
         ),
     ]
 ]
@@ -82,7 +82,7 @@ buttons += [
             url=f"t.me/{dispatcher.bot.username}?start=help",
         ),
         InlineKeyboardButton(
-            text="Gban Logs 🚫", url="https://t.me/joinchat/AAAAAEuYErj6v8_DOigW0g"
+            text="Gban Logs 🚫", url="https://t.me/joinchat/zerobotlog"
         ),
         
     ]
@@ -94,7 +94,7 @@ buttons += [
             text="Support 🎗️", url="https://t.me/ZeroBotSupport"
         ),
         InlineKeyboardButton(
-            text="Source 💻", url="https://github.com/HayakaRyu/KagaRobot"
+            text="Source 💻", url="https://github.com/sandidias/KagaRobot"
         ),
         InlineKeyboardButton(
             text="Channel 📢", url="https://t.me/HayakaRyuUpdates"
@@ -275,7 +275,7 @@ def start(update, context):
 
         else:
             update.effective_message.reply_photo(
-                "https://telegra.ph/file/ef0c265be939ec29bb53c.jpg",
+                "https://telegra.ph/file/6a13c25a5b986fdb99dd8.jpg",
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
